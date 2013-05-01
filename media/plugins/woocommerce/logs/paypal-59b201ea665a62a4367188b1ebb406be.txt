@@ -1,0 +1,945 @@
+03-23-2013 @ 19:36:13 - Generating payment form for order #241. Notify URL: http://saugatuckteapartycafe.com/?wc-api=WC_Gateway_Paypal
+03-23-2013 @ 20:50:49 - Generating payment form for order #241. Notify URL: http://saugatuckteapartycafe.com/?wc-api=WC_Gateway_Paypal
+03-23-2013 @ 20:54:43 - Checking IPN response is valid...
+03-23-2013 @ 20:54:43 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 11.00
+            [invoice] => WEB-241
+            [protection_eligibility] => Ineligible
+            [item_number1] => 
+            [tax] => 0.00
+            [item_number2] => 
+            [payer_id] => 63SKPLA3P7MJL
+            [payment_date] => 18:54:37 Mar 23, 2013 PDT
+            [payment_status] => Completed
+            [charset] => windows-1252
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => Jack
+            [mc_fee] => 0.62
+            [notify_version] => 3.7
+            [custom] => a:2:{i:0;i:241;i:1;s:19:"order_514e5bf9587b8";}
+            [payer_status] => verified
+            [business] => saugatuckteapartycafe@yahoo.com
+            [num_cart_items] => 2
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [verify_sign] => AiPC9BjkCyDFQXbSkoZcgqH3hpacAnI3uqc7NejOghaFieCp.NKCCWWG
+            [payer_email] => info@brownboston.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [tax1] => 0.00
+            [tax2] => 0.00
+            [txn_id] => 7LL988672M573153L
+            [payment_type] => instant
+            [last_name] => Clarke
+            [item_name1] => 142 &#8211; Belgium Chocolate Rooibos
+            [receiver_email] => saugatuckteapartycafe@yahoo.com
+            [item_name2] => Shipping via USPS Flat Rate
+            [payment_fee] => 0.62
+            [quantity1] => 1
+            [quantity2] => 1
+            [receiver_id] => JJGKQ6Q24XCGN
+            [txn_type] => cart
+            [mc_gross_1] => 4.00
+            [mc_currency] => USD
+            [mc_gross_2] => 7.00
+            [residence_country] => US
+            [test_ipn] => 1
+            [transaction_subject] => a:2:{i:0;i:241;i:1;s:19:"order_514e5bf9587b8";}
+            [payment_gross] => 11.00
+            [ipn_track_id] => 64cd96eca1fa2
+        )
+
+    [sslverify] => 
+    [timeout] => 60
+    [user-agent] => WooCommerce/2.0.4
+)
+
+03-23-2013 @ 20:54:44 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [date] => Sun, 24 Mar 2013 01:54:43 GMT
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [set-cookie] => Array
+                (
+                    [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=lS5G3TZn_RF1Vi7XrbfSj1aSFsMprb3fRgpOIV9YPO1szbluycgTELn4-Hlz29T05IJsiOALOCr_beM-T6ueTIDtHCtuCsbhX_o2VkRMfL_HEFI6guyrC9k88gjDsyHomlP6xW%7clH6fmWBrStK-FMiKoYWiZx5uG4tJfz4-5MqZ4iUaoLIODPWsPlLAMzo92hIJgej3SepBGG%7cb9e5aOybkajPPG3I7TVmQUJQno2iK-LKUD4gmBjkNeO44Epuw-HdNTuam5vt0nrC3zgcVm%7c1364090084; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Wed, 22-Mar-2023 01:54:44 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Sat, 19-Mar-2033 01:54:44 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.72.109.11.1364090083652673; path=/; expires=Tue, 17-Mar-43 01:54:43 GMT
+                )
+
+            [connection] => close
+            [content-type] => text/html; charset=UTF-8
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                    [value] => lS5G3TZn_RF1Vi7XrbfSj1aSFsMprb3fRgpOIV9YPO1szbluycgTELn4-Hlz29T05IJsiOALOCr_beM-T6ueTIDtHCtuCsbhX_o2VkRMfL_HEFI6guyrC9k88gjDsyHomlP6xW|lH6fmWBrStK-FMiKoYWiZx5uG4tJfz4-5MqZ4iUaoLIODPWsPlLAMzo92hIJgej3SepBGG|b9e5aOybkajPPG3I7TVmQUJQno2iK-LKUD4gmBjkNeO44Epuw-HdNTuam5vt0nrC3zgcVm|1364090084
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1679450084
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1994810084
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.72.109.11.1364090083652673
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+        )
+
+    [filename] => 
+)
+
+03-23-2013 @ 20:54:44 - Received valid response from PayPal
+03-23-2013 @ 20:54:44 - Found order #241
+03-23-2013 @ 20:54:44 - Payment status: completed
+03-23-2013 @ 20:54:44 - Payment complete.
+04-19-2013 @ 20:44:22 - Generating payment form for order #276. Notify URL: http://saugatuckteapartycafe.com/?wc-api=WC_Gateway_Paypal
+04-19-2013 @ 20:44:47 - Checking IPN response is valid...
+04-19-2013 @ 20:44:47 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 39.00
+            [invoice] => WEB-276
+            [protection_eligibility] => Ineligible
+            [item_number1] => 
+            [tax] => 0.00
+            [item_number2] => 
+            [payer_id] => UEDQY5RBX5VDJ
+            [item_number3] => 
+            [item_number4] => 
+            [payment_date] => 18:44:42 Apr 19, 2013 PDT
+            [payment_status] => Pending
+            [charset] => windows-1252
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => Tamara
+            [notify_version] => 3.7
+            [custom] => a:2:{i:0;i:276;i:1;s:19:"order_5171f2f6ca35c";}
+            [payer_status] => unverified
+            [business] => saugatuckteapartycafe@yahoo.com
+            [num_cart_items] => 4
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [mc_handling3] => 0.00
+            [mc_handling4] => 0.00
+            [verify_sign] => AG8lK.TRmeV29.O7DcUjP1eEOsAxAXQhooXS8Wva9bMFpMoUQvO9NNib
+            [payer_email] => marciedoo@gmail.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [mc_shipping3] => 0.00
+            [tax1] => 0.00
+            [mc_shipping4] => 0.00
+            [tax2] => 0.00
+            [tax3] => 0.00
+            [tax4] => 0.00
+            [txn_id] => 9JY09707MK363621M
+            [payment_type] => instant
+            [last_name] => Adams
+            [item_name1] => 119 &#8211; Panettone Vanilla Lemon
+            [receiver_email] => saugatuckteapartycafe@yahoo.com
+            [item_name2] => 106 &#8211; Cream Irish Blend
+            [item_name3] => 102 &#8211; Amsterdam Licorice
+            [item_name4] => Shipping via USPS Flat Rate
+            [quantity1] => 4
+            [quantity2] => 2
+            [pending_reason] => unilateral
+            [quantity3] => 2
+            [txn_type] => cart
+            [quantity4] => 1
+            [mc_gross_1] => 16.00
+            [mc_currency] => USD
+            [mc_gross_2] => 8.00
+            [mc_gross_3] => 8.00
+            [residence_country] => US
+            [mc_gross_4] => 7.00
+            [transaction_subject] => a:2:{i:0;i:276;i:1;s:19:"order_5171f2f6ca35c";}
+            [payment_gross] => 39.00
+            [ipn_track_id] => 5082030738a87
+        )
+
+    [sslverify] => 
+    [timeout] => 60
+    [user-agent] => WooCommerce/2.0.4
+)
+
+04-19-2013 @ 20:44:48 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [strict-transport-security] => Array
+                (
+                    [0] => max-age=14400
+                    [1] => max-age=14400
+                )
+
+            [content-type] => text/html; charset=UTF-8
+            [vary] => Accept-Encoding
+            [date] => Sat, 20 Apr 2013 01:44:48 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=o11yz2-p5hB24zuj-UX8mIfek2_LAMv68rm6NoEMP8yMMT_ltczowCIzUyvIY3vinpOqyyHHPT5ApgM6P2GVnh3EdQUitTfL78gq0FG7sWsnY-UnLgLKBGaGYei%7cVH-vTabcwGxTVfmvCXHbdx9pVdKEy3krMudZu5lE-Z1B84iP2E8ai_zLIxlhNyjpsLhSpm%7cCbRr9vabkI3vGsEfSQWSEcQ6DgU1oB4kBFrgtc04XIZtt1BE7eellnTEuqXNioD5yzto_G%7c1366422288; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Tue, 18-Apr-2023 01:44:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Fri, 15-Apr-2033 01:44:48 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.74.8.134.1366422288014687; path=/; expires=Mon, 13-Apr-43 01:44:48 GMT
+                    [5] => X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D284389713
+                    [6] => Apache=10.74.8.63.1366422288006807; path=/; expires=Mon, 13-Apr-43 01:44:48 GMT
+                    [7] => aksession=1366422588~id=cookiejdB5V491zoRxVyZgTJGlthn8LdRmm//449gCVZRChqRm+dHjHiExxmHY7SPoQMRpgSeaPPFDjoTIqFitzyP9swTS1X0Z9pYiWawr0wNpQ67UkBHm4YzGK1g81PxBiAe+5/WR/jdKcS0=; expires=Sat, 20-Apr-2013 01:49:48 GMT; path=/; domain=.paypal.com
+                )
+
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => o11yz2-p5hB24zuj-UX8mIfek2_LAMv68rm6NoEMP8yMMT_ltczowCIzUyvIY3vinpOqyyHHPT5ApgM6P2GVnh3EdQUitTfL78gq0FG7sWsnY-UnLgLKBGaGYei|VH-vTabcwGxTVfmvCXHbdx9pVdKEy3krMudZu5lE-Z1B84iP2E8ai_zLIxlhNyjpsLhSpm|CbRr9vabkI3vGsEfSQWSEcQ6DgU1oB4kBFrgtc04XIZtt1BE7eellnTEuqXNioD5yzto_G|1366422288
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1681782288
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1997142288
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.74.8.134.1366422288014687
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE6.WEB.1&silo_version=880&app=slingshot&TIME=284389713
+                    [expires] => 
+                    [path] => 
+                    [domain] => 
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.74.8.63.1366422288006807
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => aksession
+                    [value] => 1366422588~id=cookiejdB5V491zoRxVyZgTJGlthn8LdRmm//449gCVZRChqRm dHjHiExxmHY7SPoQMRpgSeaPPFDjoTIqFitzyP9swTS1X0Z9pYiWawr0wNpQ67UkBHm4YzGK1g81PxBiAe 5/WR/jdKcS0=
+                    [expires] => 1366422588
+                    [path] => /
+                    [domain] => .paypal.com
+                )
+
+        )
+
+    [filename] => 
+)
+
+04-19-2013 @ 20:44:48 - Received valid response from PayPal
+04-19-2013 @ 20:44:48 - Found order #276
+04-19-2013 @ 20:44:48 - Payment status: pending
+04-20-2013 @ 06:58:33 - Checking IPN response is valid...
+04-20-2013 @ 06:58:33 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 39.00
+            [invoice] => WEB-276
+            [protection_eligibility] => Ineligible
+            [item_number1] => 
+            [tax] => 0.00
+            [item_number2] => 
+            [payer_id] => UEDQY5RBX5VDJ
+            [item_number3] => 
+            [item_number4] => 
+            [payment_date] => 18:44:42 Apr 19, 2013 PDT
+            [payment_status] => Pending
+            [charset] => windows-1252
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => Tamara
+            [notify_version] => 3.7
+            [custom] => a:2:{i:0;i:276;i:1;s:19:"order_5171f2f6ca35c";}
+            [payer_status] => unverified
+            [business] => saugatuckteapartycafe@yahoo.com
+            [num_cart_items] => 4
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [mc_handling3] => 0.00
+            [mc_handling4] => 0.00
+            [verify_sign] => AfzPPZH.t0ety8o.ciNBEdPv7r-OA6OBEaJ2-ITVHhyFMfjen9mJ6Inm
+            [payer_email] => marciedoo@gmail.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [mc_shipping3] => 0.00
+            [tax1] => 0.00
+            [mc_shipping4] => 0.00
+            [tax2] => 0.00
+            [tax3] => 0.00
+            [tax4] => 0.00
+            [txn_id] => 9JY09707MK363621M
+            [payment_type] => instant
+            [last_name] => Adams
+            [item_name1] => 119 &#8211; Panettone Vanilla Lemon
+            [receiver_email] => saugatuckteapartycafe@yahoo.com
+            [item_name2] => 106 &#8211; Cream Irish Blend
+            [item_name3] => 102 &#8211; Amsterdam Licorice
+            [item_name4] => Shipping via USPS Flat Rate
+            [quantity1] => 4
+            [quantity2] => 2
+            [receiver_id] => YLU22H4XGFAWS
+            [pending_reason] => unilateral
+            [quantity3] => 2
+            [txn_type] => cart
+            [quantity4] => 1
+            [mc_gross_1] => 16.00
+            [mc_currency] => USD
+            [mc_gross_2] => 8.00
+            [mc_gross_3] => 8.00
+            [residence_country] => US
+            [mc_gross_4] => 7.00
+            [transaction_subject] => a:2:{i:0;i:276;i:1;s:19:"order_5171f2f6ca35c";}
+            [payment_gross] => 39.00
+            [ipn_track_id] => 448c41ed2352a
+        )
+
+    [sslverify] => 
+    [timeout] => 60
+    [user-agent] => WooCommerce/2.0.4
+)
+
+04-20-2013 @ 06:58:34 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [strict-transport-security] => Array
+                (
+                    [0] => max-age=14400
+                    [1] => max-age=14400
+                )
+
+            [content-type] => text/html; charset=UTF-8
+            [vary] => Accept-Encoding
+            [date] => Sat, 20 Apr 2013 11:58:34 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=qFOy2y6rcV43NGvue4CN89As_qsSOR8hovlr6W68AAjqUEeEz22mAELBa_F4wPook_4aO7R3359DK_e3tN1D5kJqfdm5KhM3jbTQmafzuTTOe7pnyPvPebXa4teKKP5ecEVjZm%7cqJuKdMYQwuyLuIyyPE6En2OWG7Gw58-VAvqGXM1trLz0epUeYHwPJaqrmGhBdyTJ-rvLDm%7cTeXNva8vjVbGBXyD0Hc6SAH77IYa6Kw4mTMX_YG-4E-j3f8-GD6KvkYA3IVVpxy5zMPwDW%7c1366459114; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Tue, 18-Apr-2023 11:58:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Fri, 15-Apr-2033 11:58:34 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.73.8.134.1366459114271669; path=/; expires=Mon, 13-Apr-43 11:58:34 GMT
+                    [5] => X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D3934417489
+                    [6] => Apache=10.73.8.57.1366459114261976; path=/; expires=Mon, 13-Apr-43 11:58:34 GMT
+                    [7] => aksession=1366459414~id=cookieKgvv9PuLhL1EyWml7TG1TWLLSwrzLSCrUBYo91yW5EWCg7G9n+IOTA5DOSOAGiNDnBPGg/wOSKklind6EpQhurHuyvA8pqUSofMjj8wq+ww8PMkq+QOknkkPa5fBh443I0xsrrhKKmE=; expires=Sat, 20-Apr-2013 12:03:34 GMT; path=/; domain=.paypal.com
+                )
+
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => qFOy2y6rcV43NGvue4CN89As_qsSOR8hovlr6W68AAjqUEeEz22mAELBa_F4wPook_4aO7R3359DK_e3tN1D5kJqfdm5KhM3jbTQmafzuTTOe7pnyPvPebXa4teKKP5ecEVjZm|qJuKdMYQwuyLuIyyPE6En2OWG7Gw58-VAvqGXM1trLz0epUeYHwPJaqrmGhBdyTJ-rvLDm|TeXNva8vjVbGBXyD0Hc6SAH77IYa6Kw4mTMX_YG-4E-j3f8-GD6KvkYA3IVVpxy5zMPwDW|1366459114
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1681819114
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1997179114
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.73.8.134.1366459114271669
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE5.WEB.1&silo_version=880&app=slingshot&TIME=3934417489
+                    [expires] => 
+                    [path] => 
+                    [domain] => 
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.73.8.57.1366459114261976
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => aksession
+                    [value] => 1366459414~id=cookieKgvv9PuLhL1EyWml7TG1TWLLSwrzLSCrUBYo91yW5EWCg7G9n IOTA5DOSOAGiNDnBPGg/wOSKklind6EpQhurHuyvA8pqUSofMjj8wq ww8PMkq QOknkkPa5fBh443I0xsrrhKKmE=
+                    [expires] => 1366459414
+                    [path] => /
+                    [domain] => .paypal.com
+                )
+
+        )
+
+    [filename] => 
+)
+
+04-20-2013 @ 06:58:34 - Received valid response from PayPal
+04-20-2013 @ 06:58:34 - Found order #276
+04-20-2013 @ 06:58:34 - Payment status: pending
+04-20-2013 @ 08:37:08 - Generating payment form for order #277. Notify URL: http://saugatuckteapartycafe.com/?wc-api=WC_Gateway_Paypal
+04-20-2013 @ 08:37:37 - Checking IPN response is valid...
+04-20-2013 @ 08:37:37 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 15.00
+            [invoice] => WEB-277
+            [protection_eligibility] => Ineligible
+            [item_number1] => 
+            [tax] => 0.00
+            [item_number2] => 
+            [payer_id] => 97HGUUNX8AETL
+            [item_number3] => 
+            [payment_date] => 06:37:35 Apr 20, 2013 PDT
+            [payment_status] => Completed
+            [charset] => windows-1252
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => John
+            [mc_fee] => 0.74
+            [notify_version] => 3.7
+            [custom] => a:2:{i:0;i:277;i:1;s:19:"order_51729a04e3a56";}
+            [payer_status] => verified
+            [business] => saugatuckteapartycafe@yahoo.com
+            [num_cart_items] => 3
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [mc_handling3] => 0.00
+            [verify_sign] => An5ns1Kso7MWUdW4ErQKJJJ4qi4-ABAqvQRgr-c9bPMriJGAUc78atjB
+            [payer_email] => jack.clarke.83@gmail.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [mc_shipping3] => 0.00
+            [tax1] => 0.00
+            [tax2] => 0.00
+            [tax3] => 0.00
+            [txn_id] => 0Y75475554842364L
+            [payment_type] => instant
+            [last_name] => Clarke
+            [item_name1] => 106 &#8211; Cream Irish Blend
+            [receiver_email] => saugatuckteapartycafe@yahoo.com
+            [item_name2] => 110 &#8211; Hazelnut
+            [payment_fee] => 0.74
+            [item_name3] => Shipping via USPS Flat Rate
+            [quantity1] => 1
+            [quantity2] => 1
+            [receiver_id] => YLU22H4XGFAWS
+            [quantity3] => 1
+            [txn_type] => cart
+            [mc_gross_1] => 4.00
+            [mc_currency] => USD
+            [mc_gross_2] => 4.00
+            [mc_gross_3] => 7.00
+            [residence_country] => US
+            [transaction_subject] => a:2:{i:0;i:277;i:1;s:19:"order_51729a04e3a56";}
+            [payment_gross] => 15.00
+            [ipn_track_id] => 9dfdf8084424d
+        )
+
+    [sslverify] => 
+    [timeout] => 60
+    [user-agent] => WooCommerce/2.0.4
+)
+
+04-20-2013 @ 08:37:38 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [strict-transport-security] => Array
+                (
+                    [0] => max-age=14400
+                    [1] => max-age=14400
+                )
+
+            [content-type] => text/html; charset=UTF-8
+            [vary] => Accept-Encoding
+            [date] => Sat, 20 Apr 2013 13:37:38 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=CEoBtOGn1-dgsCn1xcK23p-tRV0LMjbmPLtc6YjAe77f7RN5EYzuNsfpvyDg-ueRwk9bCwx78Rb63SV-UdP3kxW1XDBsD7ZFuwxy22Ne2_CG76Ow7whg5irrP23XOZdOHTk3VW%7cwQBpD5UdVH84YLkieeOk_ck-FzgI6I9iSqxe2bvnGDZrFoGzQ-ZO1F64MkRyJW-Np2ZqW0%7cu5DOzwoC9OFQuGogILuIxIDGdpW5pudO9ientfFvORFTfB9spdGcZaM-N9PwQfPb7aFL1G%7c1366465058; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Tue, 18-Apr-2023 13:37:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Fri, 15-Apr-2033 13:37:38 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.73.8.134.1366465057977835; path=/; expires=Mon, 13-Apr-43 13:37:37 GMT
+                    [5] => X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D563769937
+                    [6] => Apache=10.73.8.42.1366465057969839; path=/; expires=Mon, 13-Apr-43 13:37:37 GMT
+                    [7] => aksession=1366465358~id=cookieLSPYeXNWtJbR90Iv79Z8KSRtePmJnC2h+hz6tdlc2aCDyidsxg8LV7xNuFS67nk2Az5j60sc669scZHMdSPslpCXtnC/dyBFk2RauZkSFHOBVlkt1/LhwWgycEX2d9S1rZGA8r02lOk=; expires=Sat, 20-Apr-2013 13:42:38 GMT; path=/; domain=.paypal.com
+                )
+
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => CEoBtOGn1-dgsCn1xcK23p-tRV0LMjbmPLtc6YjAe77f7RN5EYzuNsfpvyDg-ueRwk9bCwx78Rb63SV-UdP3kxW1XDBsD7ZFuwxy22Ne2_CG76Ow7whg5irrP23XOZdOHTk3VW|wQBpD5UdVH84YLkieeOk_ck-FzgI6I9iSqxe2bvnGDZrFoGzQ-ZO1F64MkRyJW-Np2ZqW0|u5DOzwoC9OFQuGogILuIxIDGdpW5pudO9ientfFvORFTfB9spdGcZaM-N9PwQfPb7aFL1G|1366465058
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1681825058
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1997185058
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.73.8.134.1366465057977835
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE5.WEB.1&silo_version=880&app=slingshot&TIME=563769937
+                    [expires] => 
+                    [path] => 
+                    [domain] => 
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.73.8.42.1366465057969839
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => aksession
+                    [value] => 1366465358~id=cookieLSPYeXNWtJbR90Iv79Z8KSRtePmJnC2h hz6tdlc2aCDyidsxg8LV7xNuFS67nk2Az5j60sc669scZHMdSPslpCXtnC/dyBFk2RauZkSFHOBVlkt1/LhwWgycEX2d9S1rZGA8r02lOk=
+                    [expires] => 1366465358
+                    [path] => /
+                    [domain] => .paypal.com
+                )
+
+        )
+
+    [filename] => 
+)
+
+04-20-2013 @ 08:37:38 - Received valid response from PayPal
+04-20-2013 @ 08:37:38 - Found order #277
+04-20-2013 @ 08:37:38 - Payment status: completed
+04-20-2013 @ 08:37:38 - Payment complete.
+04-22-2013 @ 05:19:07 - Checking IPN response is valid...
+04-22-2013 @ 05:19:07 - IPN Request: Array
+(
+    [body] => Array
+        (
+            [cmd] => _notify-validate
+            [mc_gross] => 39.00
+            [invoice] => WEB-276
+            [protection_eligibility] => Ineligible
+            [item_number1] => 
+            [tax] => 0.00
+            [item_number2] => 
+            [payer_id] => UEDQY5RBX5VDJ
+            [item_number3] => 
+            [item_number4] => 
+            [payment_date] => 18:44:42 Apr 19, 2013 PDT
+            [payment_status] => Completed
+            [charset] => windows-1252
+            [mc_shipping] => 0.00
+            [mc_handling] => 0.00
+            [first_name] => Tamara
+            [mc_fee] => 1.43
+            [notify_version] => 3.7
+            [custom] => a:2:{i:0;i:276;i:1;s:19:"order_5171f2f6ca35c";}
+            [payer_status] => unverified
+            [num_cart_items] => 4
+            [mc_handling1] => 0.00
+            [mc_handling2] => 0.00
+            [mc_handling3] => 0.00
+            [mc_handling4] => 0.00
+            [verify_sign] => A82U.RPPx5.o3.3H87MeZon1UIDeAfdxRYyaLg5Rka97MLU-Pl51xT7v
+            [payer_email] => marciedoo@gmail.com
+            [mc_shipping1] => 0.00
+            [mc_shipping2] => 0.00
+            [mc_shipping3] => 0.00
+            [tax1] => 0.00
+            [mc_shipping4] => 0.00
+            [tax2] => 0.00
+            [tax3] => 0.00
+            [tax4] => 0.00
+            [txn_id] => 9JY09707MK363621M
+            [payment_type] => instant
+            [last_name] => Adams
+            [item_name1] => 119 &#8211; Panettone Vanilla Lemon
+            [receiver_email] => saugatuckteapartycafe@yahoo.com
+            [item_name2] => 106 &#8211; Cream Irish Blend
+            [payment_fee] => 1.43
+            [item_name3] => 102 &#8211; Amsterdam Licorice
+            [item_name4] => Shipping via USPS Flat Rate
+            [quantity1] => 4
+            [quantity2] => 2
+            [receiver_id] => YLU22H4XGFAWS
+            [quantity3] => 2
+            [txn_type] => cart
+            [quantity4] => 1
+            [mc_gross_1] => 16.00
+            [mc_currency] => USD
+            [mc_gross_2] => 8.00
+            [mc_gross_3] => 8.00
+            [residence_country] => US
+            [mc_gross_4] => 7.00
+            [transaction_subject] => a:2:{i:0;i:276;i:1;s:19:"order_5171f2f6ca35c";}
+            [payment_gross] => 39.00
+            [ipn_track_id] => 18c148273f430
+        )
+
+    [sslverify] => 
+    [timeout] => 60
+    [user-agent] => WooCommerce/2.0.4
+)
+
+04-22-2013 @ 05:19:08 - IPN Response: Array
+(
+    [headers] => Array
+        (
+            [server] => Apache
+            [x-frame-options] => SAMEORIGIN
+            [strict-transport-security] => Array
+                (
+                    [0] => max-age=14400
+                    [1] => max-age=14400
+                )
+
+            [content-type] => text/html; charset=UTF-8
+            [vary] => Accept-Encoding
+            [date] => Mon, 22 Apr 2013 10:19:08 GMT
+            [content-length] => 8
+            [connection] => close
+            [set-cookie] => Array
+                (
+                    [0] => cwrClyrK4LoCV1fydGbAxiNL6iG=y474zyDs0eiWd8V5SGg86FEd5Dj52JtD0PMAlB1Vb0vZAbkYQu0ZatSqMKVxiMFjbpw0ZKUZe6lE1WJ_-ZrcQqdEhpuMluGkHeHslvVnBmRTMdgZ7PELwzd-UYD3kdppQqBeg0%7cDZ0SfnoX2wUcKKE1lmmwF6t4Nf5-VRasr6hN6pyW8m4GGpv8Znt3X95YeB3_w95DcLrivW%7ckrdUT-aWOyVK7Yf2kykXXmSOos3Tguf-gQp1hntSwEGeHHyruSjmbuNVBEdAGp7cJ0EH8W%7c1366625948; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [1] => cookie_check=yes; expires=Thu, 20-Apr-2023 10:19:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [3] => navlns=0.0; expires=Sun, 17-Apr-2033 10:19:08 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                    [4] => Apache=10.73.8.137.1366625947886410; path=/; expires=Wed, 15-Apr-43 10:19:07 GMT
+                    [5] => X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dslingshot%26TIME%3D2601416017
+                    [6] => Apache=10.73.8.36.1366625947878170; path=/; expires=Wed, 15-Apr-43 10:19:07 GMT
+                    [7] => aksession=1366626248~id=cookieo7KwPOG1PsVonu3eCBryQPXKSAGbckHu9LDgXQ2Rha8hMTuo+WEz3q/MHiOWK0nBX566TI84rqkdraxqZmV0CxFnJzpqvgnuEja+vFjk+BDR9l0B/0xLfBguD092hSV59XJMLgJKaAk=; expires=Mon, 22-Apr-2013 10:24:08 GMT; path=/; domain=.paypal.com
+                )
+
+        )
+
+    [body] => VERIFIED
+    [response] => Array
+        (
+            [code] => 200
+            [message] => OK
+        )
+
+    [cookies] => Array
+        (
+            [0] => WP_Http_Cookie Object
+                (
+                    [name] => cwrClyrK4LoCV1fydGbAxiNL6iG
+                    [value] => y474zyDs0eiWd8V5SGg86FEd5Dj52JtD0PMAlB1Vb0vZAbkYQu0ZatSqMKVxiMFjbpw0ZKUZe6lE1WJ_-ZrcQqdEhpuMluGkHeHslvVnBmRTMdgZ7PELwzd-UYD3kdppQqBeg0|DZ0SfnoX2wUcKKE1lmmwF6t4Nf5-VRasr6hN6pyW8m4GGpv8Znt3X95YeB3_w95DcLrivW|krdUT-aWOyVK7Yf2kykXXmSOos3Tguf-gQp1hntSwEGeHHyruSjmbuNVBEdAGp7cJ0EH8W|1366625948
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [1] => WP_Http_Cookie Object
+                (
+                    [name] => cookie_check
+                    [value] => yes
+                    [expires] => 1681985948
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [2] => WP_Http_Cookie Object
+                (
+                    [name] => navcmd
+                    [value] => _notify-validate
+                    [expires] => 
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [3] => WP_Http_Cookie Object
+                (
+                    [name] => navlns
+                    [value] => 0.0
+                    [expires] => 1997345948
+                    [path] => /
+                    [domain] => .paypal.com
+                    [secure] => 
+                    [httponly] => 
+                )
+
+            [4] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.73.8.137.1366625947886410
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+            [5] => WP_Http_Cookie Object
+                (
+                    [name] => X-PP-SILOVER
+                    [value] => name=LIVE5.WEB.1&silo_version=880&app=slingshot&TIME=2601416017
+                    [expires] => 
+                    [path] => 
+                    [domain] => 
+                )
+
+            [6] => WP_Http_Cookie Object
+                (
+                    [name] => Apache
+                    [value] => 10.73.8.36.1366625947878170
+                    [expires] => 
+                    [path] => /
+                    [domain] => 
+                )
+
+            [7] => WP_Http_Cookie Object
+                (
+                    [name] => aksession
+                    [value] => 1366626248~id=cookieo7KwPOG1PsVonu3eCBryQPXKSAGbckHu9LDgXQ2Rha8hMTuo WEz3q/MHiOWK0nBX566TI84rqkdraxqZmV0CxFnJzpqvgnuEja vFjk BDR9l0B/0xLfBguD092hSV59XJMLgJKaAk=
+                    [expires] => 1366626248
+                    [path] => /
+                    [domain] => .paypal.com
+                )
+
+        )
+
+    [filename] => 
+)
+
+04-22-2013 @ 05:19:08 - Received valid response from PayPal
+04-22-2013 @ 05:19:08 - Found order #276
+04-22-2013 @ 05:19:08 - Payment status: completed
+04-22-2013 @ 05:19:08 - Payment complete.

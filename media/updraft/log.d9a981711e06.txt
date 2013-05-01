@@ -1,0 +1,165 @@
+0000.000 () Opened log file at time: Sat, 20 Apr 2013 04:50:33 +0000
+0000.003 () UpdraftPlus: 1.4.48 WP: 314 PHP: 5.3.21 (Linux p3nlhg258.shr.prod.phx3.secureserver.net 2.6.32-279.19.1.el6.x86_64 #1 SMP Wed Dec 19 07:05:20 UTC 2012 x86_64) max_execution_time: 900 memory_limit: 192M ZipArchive::addFile : Y
+0000.007 () Free space on disk containing Updraft's temporary directory: 1460316.6 Mb
+0000.060 () Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.063 () Processed schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.067 (0) Backup run: resumption=0, nonce=d9a981711e06, begun at=1366433433 (0s ago), job type: backup
+0000.068 (0) Scheduling a resumption (1) after 300 seconds (1366433733) in case this run gets aborted
+0000.070 (0) Creation of backups of directories: beginning
+0000.076 (0) Beginning creation of dump of plugins
+0001.369 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip.tmp: 100 files added (on-disk size: 764.9 Kb)
+0002.754 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip.tmp: 200 files added (on-disk size: 1659.8 Kb)
+0004.332 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip.tmp: 300 files added (on-disk size: 4057 Kb)
+0006.106 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip.tmp: 400 files added (on-disk size: 4887.8 Kb)
+0007.781 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip.tmp: 500 files added (on-disk size: 5421.1 Kb)
+0009.378 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip.tmp: 600 files added (on-disk size: 5849.5 Kb)
+0011.235 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip.tmp: 700 files added (on-disk size: 6427.1 Kb)
+0012.595 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip.tmp: 800 files added (on-disk size: 6829.9 Kb)
+0014.461 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip.tmp: 900 files added (on-disk size: 7150.9 Kb)
+0015.928 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip.tmp: 1000 files added (on-disk size: 7470.2 Kb)
+0019.769 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip.tmp: 1100 files added (on-disk size: 10447.9 Kb)
+0021.207 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip.tmp: 1200 files added (on-disk size: 10533.7 Kb)
+0022.760 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip.tmp: 1300 files added (on-disk size: 10795.8 Kb)
+0026.295 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip.tmp: 1400 files added (on-disk size: 14727.4 Kb)
+0026.808 (0) Created plugins zip - file size is 14869.7 Kb in 26.7 s (556.3 Kb/s)
+0026.810 (0) Beginning creation of dump of themes
+0028.045 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-themes.zip.tmp: 100 files added (on-disk size: 808.8 Kb)
+0029.015 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-themes.zip.tmp: 200 files added (on-disk size: 1102.8 Kb)
+0030.653 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-themes.zip.tmp: 300 files added (on-disk size: 1390 Kb)
+0032.211 (0) Created themes zip - file size is 4425.6 Kb in 5.4 s (820.2 Kb/s)
+0032.214 (0) Beginning creation of dump of uploads
+0032.653 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0032.714 (0) Zip: backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0033.756 (0) Created uploads zip - file size is 920.9 Kb in 1.5 s (597.9 Kb/s)
+0033.758 (0) Beginning backup of other directories found in the content directory
+0033.759 (0) Looking for candidates to back up in: /home/content/72/10495372/html/media
+0033.767 (0) others: index.php: skipping: excluded by options
+0033.768 (0) others: upgrade: skipping: excluded by options
+0033.769 (0) others: plugins: skipping: this is the plugins directory
+0033.770 (0) others: themes: skipping: this is the themes directory
+0033.770 (0) others: uploads: skipping: this is the uploads directory
+0033.771 (0) others: updraft: skipping: this is the updraft directory
+0033.772 (0) others: advanced-cache.php: adding to list
+0033.773 (0) others: wp-cache-config.php: adding to list
+0033.773 (0) others: cache: skipping: excluded by options
+0033.797 (0) Created others zip - file size is 2.5 Kb in 0 s (113.5 Kb/s)
+0033.800 (0) Saving backup status to database (elements: 8)
+0033.802 (0) Beginning creation of database dump
+0033.815 (0) Table cec13zo2_bwps_lockouts: Total rows added: 147 in 0.01 seconds
+0033.817 (0) Table cec13zo2_bwps_lockouts: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_bwps_lockouts.table.gz)
+0034.486 (0) Table cec13zo2_bwps_log: Total rows added: 4192 in 0.67 seconds
+0034.497 (0) Table cec13zo2_bwps_log: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_bwps_log.table.gz)
+0034.507 (0) Table cec13zo2_commentmeta: Total rows added: 4 in 0.01 seconds
+0034.509 (0) Table cec13zo2_commentmeta: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_commentmeta.table.gz)
+0034.519 (0) Table cec13zo2_comments: Total rows added: 18 in 0.01 seconds
+0034.521 (0) Table cec13zo2_comments: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_comments.table.gz)
+0034.536 (0) Table cec13zo2_leafletmapsmarker_layers: Total rows added: 1 in 0.00 seconds
+0034.538 (0) Table cec13zo2_leafletmapsmarker_layers: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_leafletmapsmarker_layers.table.gz)
+0034.549 (0) Table cec13zo2_leafletmapsmarker_markers: Total rows added: 1 in 0.01 seconds
+0034.551 (0) Table cec13zo2_leafletmapsmarker_markers: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_leafletmapsmarker_markers.table.gz)
+0034.558 (0) Table cec13zo2_links: Total rows added: 0 in 0.00 seconds
+0034.561 (0) Table cec13zo2_links: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_links.table.gz)
+0034.568 (0) Table cec13zo2_login_security_solution_fail: Total rows added: 2 in 0.00 seconds
+0034.570 (0) Table cec13zo2_login_security_solution_fail: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_login_security_solution_fail.table.gz)
+0034.871 (0) Table cec13zo2_options: Total rows added: 1861 in 0.30 seconds
+0034.876 (0) Table cec13zo2_options: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_options.table.gz)
+0034.998 (0) Table cec13zo2_postmeta: Total rows added: 2493 in 0.12 seconds
+0035.001 (0) Table cec13zo2_postmeta: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_postmeta.table.gz)
+0035.040 (0) Table cec13zo2_posts: Total rows added: 173 in 0.04 seconds
+0035.042 (0) Table cec13zo2_posts: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_posts.table.gz)
+0035.055 (0) Table cec13zo2_term_relationships: Total rows added: 261 in 0.01 seconds
+0035.057 (0) Table cec13zo2_term_relationships: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_term_relationships.table.gz)
+0035.067 (0) Table cec13zo2_term_taxonomy: Total rows added: 38 in 0.01 seconds
+0035.069 (0) Table cec13zo2_term_taxonomy: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_term_taxonomy.table.gz)
+0035.077 (0) Table cec13zo2_terms: Total rows added: 38 in 0.01 seconds
+0035.079 (0) Table cec13zo2_terms: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_terms.table.gz)
+0035.087 (0) Table cec13zo2_usermeta: Total rows added: 61 in 0.01 seconds
+0035.089 (0) Table cec13zo2_usermeta: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_usermeta.table.gz)
+0035.096 (0) Table cec13zo2_users: Total rows added: 2 in 0.00 seconds
+0035.098 (0) Table cec13zo2_users: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_users.table.gz)
+0035.104 (0) Table cec13zo2_woocommerce_attribute_taxonomies: Total rows added: 1 in 0.00 seconds
+0035.106 (0) Table cec13zo2_woocommerce_attribute_taxonomies: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_woocommerce_attribute_taxonomies.table.gz)
+0035.113 (0) Table cec13zo2_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0035.115 (0) Table cec13zo2_woocommerce_downloadable_product_permissions: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_woocommerce_downloadable_product_permissions.table.gz)
+0035.123 (0) Table cec13zo2_woocommerce_order_itemmeta: Total rows added: 32 in 0.00 seconds
+0035.124 (0) Table cec13zo2_woocommerce_order_itemmeta: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_woocommerce_order_itemmeta.table.gz)
+0035.130 (0) Table cec13zo2_woocommerce_order_items: Total rows added: 4 in 0.00 seconds
+0035.131 (0) Table cec13zo2_woocommerce_order_items: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_woocommerce_order_items.table.gz)
+0035.137 (0) Table cec13zo2_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0035.138 (0) Table cec13zo2_woocommerce_tax_rate_locations: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_woocommerce_tax_rate_locations.table.gz)
+0035.144 (0) Table cec13zo2_woocommerce_tax_rates: Total rows added: 1 in 0.00 seconds
+0035.146 (0) Table cec13zo2_woocommerce_tax_rates: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_woocommerce_tax_rates.table.gz)
+0035.160 (0) Table cec13zo2_woocommerce_termmeta: Total rows added: 65 in 0.01 seconds
+0035.163 (0) Table cec13zo2_woocommerce_termmeta: finishing file (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_woocommerce_termmeta.table.gz)
+0035.166 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_bwps_lockouts.table.gz: adding to final database dump
+0035.169 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_bwps_log.table.gz: adding to final database dump
+0035.441 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_commentmeta.table.gz: adding to final database dump
+0035.444 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_comments.table.gz: adding to final database dump
+0035.448 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_leafletmapsmarker_layers.table.gz: adding to final database dump
+0035.450 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_leafletmapsmarker_markers.table.gz: adding to final database dump
+0035.453 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_links.table.gz: adding to final database dump
+0035.455 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_login_security_solution_fail.table.gz: adding to final database dump
+0035.458 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_options.table.gz: adding to final database dump
+0035.641 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_postmeta.table.gz: adding to final database dump
+0035.663 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_posts.table.gz: adding to final database dump
+0035.674 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_term_relationships.table.gz: adding to final database dump
+0035.677 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_term_taxonomy.table.gz: adding to final database dump
+0035.680 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_terms.table.gz: adding to final database dump
+0035.683 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_usermeta.table.gz: adding to final database dump
+0035.685 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_users.table.gz: adding to final database dump
+0035.687 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_woocommerce_attribute_taxonomies.table.gz: adding to final database dump
+0035.689 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_woocommerce_downloadable_product_permissions.table.gz: adding to final database dump
+0035.691 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_woocommerce_order_itemmeta.table.gz: adding to final database dump
+0035.694 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_woocommerce_order_items.table.gz: adding to final database dump
+0035.697 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_woocommerce_tax_rate_locations.table.gz: adding to final database dump
+0035.699 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_woocommerce_tax_rates.table.gz: adding to final database dump
+0035.701 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db-table-cec13zo2_woocommerce_termmeta.table.gz: adding to final database dump
+0035.716 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db.gz: finished writing out complete database file (1088 Kb)
+0035.730 (0) Total database tables backed up: 23
+0035.733 (0) Saving backup history
+0035.735 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db.gz: applying encryption
+0049.655 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db.gz: encryption successful: 1127.6Kb in 13.9s (81Kb/s)
+0049.661 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0049.662 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0049.663 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0049.665 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-others.zip: others: This file has not yet been successfully uploaded: will queue
+0049.665 (0) backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db.gz.crypt: db: This file has not yet been successfully uploaded: will queue
+0049.666 (0) Requesting backup of the files that were not successfully uploaded
+0049.668 (0) Cloud backup selection: none
+0049.669 (0) No remote despatch: user chose no remote backup service
+0049.670 (0) Retain: beginning examination of existing backup sets
+0049.671 (0) Retain files: user setting: number to retain = 3
+0049.672 (0) Retain db: user setting: number to retain = 3
+0049.673 (0) Number of backup sets in history: 4
+0049.673 (0) Examining backup set with datestamp: 1366433433
+0049.674 (0) 1366433433: this set includes a database (backup_2013-04-19-2350_Saugatuck_Tea_Party_Caf_d9a981711e06-db.gz.crypt); db count is now 1
+0049.675 (0) 1366433433: this set includes files; fileset count is now 1
+0049.676 (0) 1366433433: this backup set remains non-empty; will retain in history
+0049.677 (0) Examining backup set with datestamp: 1365826209
+0049.677 (0) 1365826209: this set includes a database (backup_2013-04-12-2310_Saugatuck_Tea_Party_Caf_a9c8715a2dea-db.gz.crypt); db count is now 2
+0049.678 (0) 1365826209: this set includes files; fileset count is now 2
+0049.679 (0) 1365826209: this backup set remains non-empty; will retain in history
+0049.680 (0) Examining backup set with datestamp: 1365220650
+0049.680 (0) 1365220650: this set includes a database (backup_2013-04-05-2257_Saugatuck_Tea_Party_Caf_d32b674c553a-db.gz.crypt); db count is now 3
+0049.681 (0) 1365220650: this set includes files; fileset count is now 3
+0049.682 (0) 1365220650: this backup set remains non-empty; will retain in history
+0049.683 (0) Examining backup set with datestamp: 1364616085
+0049.683 (0) 1364616085: this set includes a database (backup_2013-03-29-2301_Saugatuck_Tea_Party_Caf_c907e515b440-db.gz.crypt); db count is now 4
+0049.684 (0) 1364616085: over retain limit (3); will delete this database
+0049.685 (0) Delete this file: backup_2013-03-29-2301_Saugatuck_Tea_Party_Caf_c907e515b440-db.gz.crypt, service=none
+0049.686 (0) Deleting local copy (/home/content/72/10495372/html/media/updraft/backup_2013-03-29-2301_Saugatuck_Tea_Party_Caf_c907e515b440-db.gz.crypt)
+0049.687 (0) 1364616085: this set includes files; fileset count is now 4
+0049.688 (0) 1364616085: over retain limit (3); will delete this file set
+0049.689 (0) Delete this file: backup_2013-03-29-2301_Saugatuck_Tea_Party_Caf_c907e515b440-plugins.zip, service=none
+0049.690 (0) Deleting local copy (/home/content/72/10495372/html/media/updraft/backup_2013-03-29-2301_Saugatuck_Tea_Party_Caf_c907e515b440-plugins.zip)
+0049.691 (0) Delete this file: backup_2013-03-29-2301_Saugatuck_Tea_Party_Caf_c907e515b440-themes.zip, service=none
+0049.692 (0) Deleting local copy (/home/content/72/10495372/html/media/updraft/backup_2013-03-29-2301_Saugatuck_Tea_Party_Caf_c907e515b440-themes.zip)
+0049.693 (0) Delete this file: backup_2013-03-29-2301_Saugatuck_Tea_Party_Caf_c907e515b440-uploads.zip, service=none
+0049.694 (0) Deleting local copy (/home/content/72/10495372/html/media/updraft/backup_2013-03-29-2301_Saugatuck_Tea_Party_Caf_c907e515b440-uploads.zip)
+0049.696 (0) 1364616085: this backup set is now empty; will remove from history
+0049.698 (0) 1364616085: deleting log file (log.c907e515b440.txt)
+0049.699 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0049.701 (0) Resume backup (d9a981711e06, 0): finish run
+0049.703 (0) There were no errors in the uploads, so the 'resume' event is being unscheduled
+0049.704 (0) No email will/can be sent - the user has not configured an email address.
+0049.705 (0) The backup apparently succeeded and is now complete

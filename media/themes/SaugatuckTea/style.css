@@ -1,0 +1,151 @@
+/*Theme Name: SaugatuckTea
+Theme URI: http://brownboston.com/saugatuck-tea-party-cafe
+Description: Saugatuck Tea Party Cafe
+Author: Brown Boston Media
+Author URI: http://brownboston.com
+Template: Flexible
+Version: 1.0*/
+
+@import url(../media/themes/Flexible/style.css);
+@import url(../media/plugins/woocommerce/assets/css/woocommerce.css);
+@import url(../media/plugins/woocommerce/assets/css/woocommerce-base.less);
+@import url(../media/plugins/woocommerce/assets/css/woocommerce.less);
+@import url(../media/plugins/woocommerce/assets/css/mixins.less);
+@import url(../media/plugins/woocommerce/assets/css/menu.less);
+@import url(../media/plugins/woocommerce/assets/css/menu.css);
+@import url(../media/plugins/woocommerce/assets/css/fancybox.less);
+@import url(../media/plugins/woocommerce/assets/css/fancybox.css);
+@import url(../media/plugins/woocommerce/assets/css/chosen.less);
+@import url(../media/plugins/woocommerce/assets/css/chosen.css);
+@import url(../media/plugins/woocommerce/assets/css/admin.less);
+@import url(../media/plugins/woocommerce/assets/css/admin.css);
+@import url(../media/plugins/woocommerce/assets/css/activation.less);
+@import url(../media/plugins/woocommerce/assets/css/activation.css);
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
+
+
+body {
+    color: #000000
+    font-size: 13px;
+    line-height: 20px;
+    padding: 50px 0 35px;
+    font-family:'Julius Sans One', sans-serif;
+}
+
+#main-area {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 17px;
+}
+
+#top-menu {
+    float: right;
+    padding-top: 100px;
+}
+
+#top-menu li {
+  color: #000000;
+  float: left;
+  font-weight: bold;
+  padding-left: 17px;
+  text-transform: uppercase;
+}
+
+#top-menu a {
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#top-menu a:hover {
+  color: #C71FA6;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#phone {
+    font-style: italic;
+    position: absolute;
+    right: 0;
+    top: 116px;
+}
+
+.nav ul {
+  background: none repeat scroll 0 0 #878787;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: -999em;
+  z-index: 10;
+}
+
+#featured {
+  background: none repeat scroll 0 0 transparent;
+  margin-bottom: 75px;
+  position: relative;
+}
+
+#quote {
+  background: none repeat scroll 0 0 #878787;
+  font-weight: lighter;
+  margin-bottom: 50px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.post-content {
+    padding: 0px 50px 45px;
+}
+
+/*WC Container Padding*/
+ .fullwidth #left-area {
+    float: none;
+    padding: 20px;
+    width: auto;
+}
+
+mark.count {
+    background-color:transparent;
+}
+
+.price {
+    color: #878787;
+    display: block;
+    font-weight: bold;
+    margin-bottom: .5em;
+}
+
+.amount {
+    color: #C71FA6;
+    font-size:28px;
+}
+
+.woocommerce-message {
+    background: transparent !important;
+    border: 1px solid #B76CA9 !important;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.04) inset;
+    overflow: hidden;
+    padding: 10px 0 0 40px !important;
+    position: relative;
+    z-index: 100;
+}
+
+.woocommerce-page #content div.product div.images {
+    float: left;
+    margin-bottom: 2em;
+    width: 35%;
+}
+
+div.images img {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    display: block;
+    height: auto;
+    transition: all 0.2s ease-in-out 0s;
+    width: 100%;
+}
+
+.woocommerce-page #content div.product div.summary {
+    float: left;
+    margin-bottom: 2em;
+    margin-left: 5%;
+    width: 55%;
+}

@@ -1,0 +1,7 @@
+0000.000 (0) Opened log file at time: Sat, 13 Apr 2013 04:11:00 +0000
+0000.001 (0) UpdraftPlus: 1.4.48 WP: 280 PHP: 5.3.21 (Linux p3nlhg260.shr.prod.phx3.secureserver.net 2.6.32-279.19.1.el6.x86_64 #1 SMP Wed Dec 19 07:05:20 UTC 2012 x86_64) max_execution_time: 900 memory_limit: 192M ZipArchive::addFile : Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 1595013.4 Mb
+0000.007 (0) Tasks: Backup files:  (schedule: weekly) Backup DB: 1 (schedule: weekly)
+0000.008 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 
+0000.009 (0) No email will be sent - this backup set was empty.
+0000.010 (0) The backup apparently succeeded and is now complete
